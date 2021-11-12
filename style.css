@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 25px 50px rgb(26, 25, 25);
+    z-index: 1;
+    box-sizing: content-box;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;
+}
+
+header div ion-icon {
+    font-size: 50px;
+    color: orangered;
+}
+
+header div p {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+header div a {
+    color: orangered;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+header div a:hover {
+    color: orange;
+    letter-spacing: 3px;
+}
+
+.contact-info {
+    padding: 300px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(38, 2, 61, 0.9), rgba(38, 2, 61, 0.9)), url("images/background-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-info ion-icon {
+    font-size: 250px;
+    color: springgreen;
+}
+
+.contact-info p {
+    color: snow;
+    font-size: 20px;
+}
+
+.contact-info span {
+    font-weight: 600;
+}
+
+.name {
+    font-style: italic; 
+    font-weight: 700;
+}
+
+.location {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.location ion-icon {
+    font-size: 20px; 
+    color: white;
+}
+
+.location p {
+    font-size: 16px;
+}
+
+.my-projects {
+    background-image: radial-gradient(circle, rgb(66, 64, 64), black);
+    padding: 100px 0 250px 0;
+}
+
+.my-projects h1, .about-me h1 {
+    color: whitesmoke;
+    background-color: orangered;
+    padding: 10px 25px;
+    font-size: 28px;
+    margin-left: 100px;
+    text-decoration: underline;
+    text-shadow: -1px -1px 2 #000, 1px -1px 2 #000, -1px 1px 2 #000, 1px 1px 2 #000;
+}
+
+.my-projects table {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.my-projects td {
+    padding: 50px;
+}
+
+.my-projects a {
+    text-decoration: none;
+}
+
+.my-projects img {
+    width: 150px;
+    border-radius: 25px;
+}
+
+.my-projects img:hover {
+    border: orangered solid 5px;
+}
+
+.my-projects p {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.about-me {
+    padding: 100px 0;
+    background-color: whitesmoke;
+}
+
+.about-me p {
+    margin: 100px auto 0 auto;
+    width: 60%;
+    font-size: 20px;
+}
+
+.resume-whole {
+    background-image: linear-gradient(rgba(38, 2, 61), rgb(65, 4, 102), rgba(38, 2, 61));
+    padding: 250px 0;
+}
+
+.resume {
+    margin: 0 auto;
+    background-color: black;
+    width: 75%;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+
+.resume-header {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-header h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px;
+    border: solid orangered 2px;
+    border-radius: 40px;
+}
+
+.name-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-info h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: orangered;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-info div ion-icon {
+    color: orangered;
+}
+
+.resume-body {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+.titles {
+    width: 25%;
+    text-align: right;
+}
+
+.titles p {
+    font-size: 22px;
+    font-weight: 600;
+    color: orangered;
+    height: 200px;
+}
+
+.intern-info {
+    width: 70%;
+}
+
+.intern-info ul {
+    padding-left: 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.end-italic {
+    font-style: italic;
+}
